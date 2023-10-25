@@ -46,7 +46,7 @@ function Home() {
           </div>
         </div><br /><br /><br />
         </> : 
-        <Button onClick={goBack}>Go Back</Button>}
+        <Button onClick={goBack}>Go Back to Search</Button>}
         
         {data.length>=1 ? <Products data={data}/>: null}
         
