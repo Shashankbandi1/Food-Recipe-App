@@ -1,0 +1,96 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.header {
+    background-color: lightblue;
+    padding: 1px 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    display: flex;
+    
+  }
+  h2{
+    color: orangered;
+  }
+.primary-nav {
+  color: yellow;
+    display:-webkit-flex;
+    display:flex;
+    padding:30px;
+    justify-content:flex-end;
+    margin-left: auto;
+    gap: 15px;
+}
+.footer {
+    position:fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+
+.carousel-inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-input{
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('https://img.icons8.com/?size=24&id=dmmKDmS3gJGy&format=gif');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+
+}
+.search-btn {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: darken(white, 15%);
+    transition: all .3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  &:hover {
+    color: #fff;
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
