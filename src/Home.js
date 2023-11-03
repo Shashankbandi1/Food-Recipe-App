@@ -6,8 +6,8 @@ import Header from './Header';
 import Footer from './Footer';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
-import Carousel from 'react-material-ui-carousel';
-import { Paper, Typography } from '@mui/material';
+// import Carousel from 'react-material-ui-carousel';
+// import { Paper, Typography } from '@mui/material';
 
 function Home() {
 

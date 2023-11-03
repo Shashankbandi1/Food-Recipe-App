@@ -28,7 +28,6 @@ const Products = ({data}) => {
                     <CardActions>
                         <Button size="small">Buy</Button>
                         <Button size="small">Share</Button>
-                    
                     </CardActions>
                 
                 </Card>

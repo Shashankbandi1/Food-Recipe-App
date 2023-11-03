@@ -8,6 +8,7 @@ const Header = () => {
       <h2>Food Receipe App</h2>
         <div className='primary-nav'>
           <div>About</div>
+          <div><Link to="/About">Contact</Link></div>
           <div><Link to="/contact">Contact</Link></div>
         </div>
     </div>
