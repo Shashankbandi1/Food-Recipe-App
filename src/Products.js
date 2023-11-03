@@ -29,7 +29,6 @@ const Products = ({data}) => {
                         <Button size="small">Buy</Button>
                         <Button size="small">Share</Button>
                     </CardActions>
-                
                 </Card>
             </div>
         </div>)}

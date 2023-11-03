@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-export const About = () => {
+export const Receipe = () => {
     return <div>
         <div className='header' >
            <h2>Food Receipe App</h2>
